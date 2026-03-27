@@ -25,25 +25,25 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Yu-Zhu Xiang"
-  pronouns         : # example: "she/her"  
+  pronouns         : "she"  # example: "she/her"  
   bio              : "Short biography for Yu-Zhu Xiang"
-  location         : "Earth"
-  employer         : "NJUST"
+  location         : "Nanjing, China"
+  employer         : "Nanjing University of Science & Technology"
   uri              : # URL
   email            : "xiangyz01@outlook.com" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=MS-pzOIAAAAJ&hl"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/my-orcid?orcid=0009-0002-5062-229X"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
+  pubmed           : # URL
+  researchgate     : "https://www.researchgate.net/profile/Yu-Zhu-Xiang" # URL
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57715462800" # URL
   zotero           : # URL
 
 
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/yuzhuxiang/" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -79,7 +79,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : # Username
+  youtube          : "https://www.youtube.com/@xiangyz01" # Username
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
@@ -87,7 +87,7 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles Peer Reviewed'    
+    title: 'Journal Articles (Peer Reviewed)'    
   conferences:
     title: 'Conference Papers'
 
