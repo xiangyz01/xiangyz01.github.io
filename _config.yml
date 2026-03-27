@@ -228,9 +228,12 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
+    output: false
+    permalink: /:collection/:path/
+  awards:
     output: true
     permalink: /:collection/:path/
 
