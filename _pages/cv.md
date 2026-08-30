@@ -60,11 +60,19 @@ Honors and Awards
 * Outstanding Graduate, Jiangsu University (2023)
 * Outstanding Student Leader, Jiangsu University (2022)
 
-Publications
+Publications and Patents
 ======
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+{% for category in site.publication_category %}
+  {% assign category_posts = site.publications | where: "category", category[0] | sort: "date" | reverse %}
+  {% if category_posts.size > 0 %}
+<h3>{{ category[1].title }}</h3>
+<ul>
+    {% for post in category_posts %}
+      {% include archive-single-cv.html %}
+    {% endfor %}
+</ul>
+  {% endif %}
+{% endfor %}
 
 Talks
 ======
