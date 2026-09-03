@@ -281,7 +281,7 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: score-lab
     values:
       layout: single
       author_profile: true
