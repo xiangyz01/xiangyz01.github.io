@@ -281,7 +281,16 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: score-lab
+      type: scorelab
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
     values:
       layout: single
       author_profile: true
